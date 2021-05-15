@@ -1,0 +1,10 @@
+{
+  "name": "campo_de_treinamento__cubos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Lima <luc.tech3337@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
