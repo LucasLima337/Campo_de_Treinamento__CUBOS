@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('mockAlert', alias => {
+    cy.window().then(win => {
+        cy.stub(win, 'alert').as(alias)
+    })
+})
