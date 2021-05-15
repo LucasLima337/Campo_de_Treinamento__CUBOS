@@ -1,6 +1,7 @@
 const locators = {
     BUTTONS: {
-        cadastro: "#elementosForm\\:cadastrar"
+        cadastro: "#elementosForm\\:cadastrar",
+        clique_me: "#buttonSimple"
     },
 
     INPUTS: {
