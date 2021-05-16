@@ -7,20 +7,33 @@ describe('EVENTO CONFIRM', () => {
         cy.visit('../../../app/toTest.html')
     })
 
-    it('deve exibir um alerta com uma mensagem específica', () => {
+    it('deve exibir um campo de confirmação com uma mensagem específica', () => {
+        cy.get(loc.BUTTONS.btn_confirm).click()
+        
+        cy.on('window:confirm', msg => {
+            expect(msg).to.be.equal('Confirm Simples')
+        })
+    })
+    
+    it('deve exibir a mensagem "Confirmado" ao clicar em ok', () => {
         cy.mockAlert('alerta')
 
-        
+        cy.get(loc.BUTTONS.btn_confirm).click()
 
         cy.get('@alerta')
-            .should('be.calledWith', 'Alert Simples')
+            .should('be.calledWith', 'Confirmado')
     })
 
-    it('', () => {
+    it('deve exibir a mensagem "Negado" ao clicar em cancelar', () => {
+        cy.mockAlert('alerta')
 
-    })
+        cy.on('window:confirm', msg => {
+            return false
+        })
 
-    it('', () => {
+        cy.get(loc.BUTTONS.btn_confirm).click()
 
+        cy.get('@alerta')
+            .should('be.calledWith', 'Negado')
     })
 })

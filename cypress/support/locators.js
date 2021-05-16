@@ -2,7 +2,9 @@ const locators = {
     BUTTONS: {
         cadastro: "#elementosForm\\:cadastrar",
         clique_me: "#buttonSimple",
-        clique_aqui: nome => `tr td:contains(${nome}):nth-child(1) ~ td input[value="Clique aqui"]`
+        clique_aqui: nome => `tr td:contains(${nome}):nth-child(1) ~ td input[value="Clique aqui"]`,
+        btn_alert: "#alert",
+        btn_confirm: "#confirm"
     },
 
     INPUTS: {

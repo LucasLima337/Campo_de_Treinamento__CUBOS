@@ -10,7 +10,7 @@ describe('EVENTO ALERT', () => {
     it('deve exibir um alerta com uma mensagem específica', () => {
         cy.mockAlert('alerta')
 
-        cy.get('#alert').click()
+        cy.get(loc.BUTTONS.btn_alert).click()
 
         cy.get('@alerta')
             .should('be.calledWith', 'Alert Simples')
