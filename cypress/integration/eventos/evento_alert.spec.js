@@ -2,7 +2,7 @@
 
 import loc from '../../support/locators'
 
-describe('LINK VOLTAR', () => {
+describe('EVENTO ALERT', () => {
     before(() => {
         cy.visit('../../../app/toTest.html')
     })
