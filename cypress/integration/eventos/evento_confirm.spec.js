@@ -7,6 +7,8 @@ describe('EVENTO CONFIRM', () => {
         cy.visit('../../../app/toTest.html')
     })
 
+    beforeEach(() => cy.reload())
+
     it('deve exibir um campo de confirmação com uma mensagem específica', () => {
         cy.get(loc.BUTTONS.btn_confirm).click()
         
