@@ -32,7 +32,11 @@ const locators = {
 
     FIELDS: {
         resultado: "#resultado"
-    } 
+    },
+
+    LINKS: {
+        voltar: "body a:contains('Voltar')"
+    }
 }
 
 export default locators
