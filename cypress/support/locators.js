@@ -2,6 +2,7 @@ const locators = {
     BUTTONS: {
         cadastro: "#elementosForm\\:cadastrar",
         clique_me: "#buttonSimple",
+        resposta_demorada: "#buttonDelay",
         clique_aqui: nome => `tr td:contains(${nome}):nth-child(1) ~ td input[value="Clique aqui"]`,
         btn_alert: "#alert",
         btn_confirm: "#confirm"
@@ -9,7 +10,8 @@ const locators = {
 
     INPUTS: {
         nome: "#elementosForm\\:nome",
-        sobrenome: "#elementosForm\\:sobrenome"
+        sobrenome: "#elementosForm\\:sobrenome",
+        input_demorado: "#novoCampo"
     },
 
     RADIOS: {

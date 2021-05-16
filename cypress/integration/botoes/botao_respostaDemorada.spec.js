@@ -10,16 +10,16 @@ describe('BOTÃO RESPOSTA DEMORADA', () => {
     beforeEach(() => cy.reload())
 
     it('deve exibir um campo de entrada de texto', () => {
-        cy.get('#buttonDelay').click()
+        cy.get(loc.BUTTONS.resposta_demorada).click()
 
-        cy.get('#novoCampo')
+        cy.get(loc.INPUTS.input_demorado)
             .should('exist')
     })
 
     it('deve ser capaz de escrever algo na nova entrada de texto', () => {
-        cy.get('#buttonDelay').click()
+        cy.get(loc.BUTTONS.resposta_demorada).click()
 
-        cy.get('#novoCampo').type('Escrevendo algo aqui...')
+        cy.get(loc.INPUTS.input_demorado).type('Escrevendo algo aqui...')
             .should('have.value', 'Escrevendo algo aqui...')
     })
 })
