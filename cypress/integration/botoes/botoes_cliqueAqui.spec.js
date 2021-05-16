@@ -7,6 +7,8 @@ describe('BOTÕES CLIQUE AQUI', () => {
         cy.visit('../../../app/toTest.html')
     })
 
+    beforeEach(() => cy.reload())
+
     const nomes = ['Francisco', 'Maria', 'Usuario A', 'Doutorado', 'Usuario B']
     nomes.forEach(nome => {
         it(`deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ ${nome} ]`, () => {
