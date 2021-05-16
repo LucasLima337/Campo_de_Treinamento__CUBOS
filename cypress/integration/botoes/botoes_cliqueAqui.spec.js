@@ -9,7 +9,7 @@ describe('BOTÕES CLIQUE AQUI', () => {
 
     const nomes = ['Francisco', 'Maria', 'Usuario A', 'Doutorado', 'Usuario B']
     nomes.forEach(nome => {
-        it(`deve exibir o nome correspondente a linha da tabela ao clicar no botão [ ${nome} ]`, () => {
+        it(`deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ ${nome} ]`, () => {
             cy.mockAlert('alerta')
 
             cy.get(loc.BUTTONS.clique_aqui(nome)).click()
