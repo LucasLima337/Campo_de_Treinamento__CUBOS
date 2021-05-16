@@ -2,10 +2,12 @@
 
 import loc from '../../support/locators'
 
-describe('EVENTO CONFIRM', () => {
+describe('EVENTO PROMPT', () => {
     before(() => {
         cy.visit('../../../app/toTest.html')
     })
+
+    beforeEach(() => cy.reload())
 
     it.only('deve inserir um número e obter um retorno positivo', () => {
 
