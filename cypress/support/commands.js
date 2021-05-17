@@ -30,3 +30,9 @@ Cypress.Commands.add('mockAlert', alias => {
         cy.stub(win, 'alert').as(alias)
     })
 })
+
+Cypress.Commands.add('mockPrompt', data => {
+    cy.window().then(win => {
+        cy.stub(win, 'prompt').returns(data)
+    })
+})

@@ -29,9 +29,7 @@ describe('EVENTO CONFIRM', () => {
     it('deve exibir a mensagem "Negado" ao clicar em cancelar', () => {
         cy.mockAlert('alerta')
 
-        cy.on('window:confirm', msg => {
-            return false
-        })
+        cy.on('window:confirm', msg => false)
 
         cy.get(loc.BUTTONS.btn_confirm).click()
 

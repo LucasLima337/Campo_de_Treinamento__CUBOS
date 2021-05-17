@@ -5,7 +5,8 @@ const locators = {
         resposta_demorada: "#buttonDelay",
         clique_aqui: nome => `tr td:contains(${nome}):nth-child(1) ~ td input[value="Clique aqui"]`,
         btn_alert: "#alert",
-        btn_confirm: "#confirm"
+        btn_confirm: "#confirm",
+        btn_prompt: "#prompt"
     },
 
     INPUTS: {
