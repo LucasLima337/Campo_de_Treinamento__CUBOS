@@ -1,0 +1,309 @@
+{
+  "uid" : "315da5499d463062",
+  "name" : "não deve ser capaz de cadastrar um usuário com os campos \"Nome\" e \"Sobrenome\" inválidos",
+  "fullName" : "não deve ser capaz de cadastrar um usuário com os campos \"Nome\" e \"Sobrenome\" inválidos",
+  "historyId" : "50f51b2803d3c478290fc3df67cc750b",
+  "time" : {
+    "start" : 1621262738432,
+    "stop" : 1621262743692,
+    "duration" : 5260
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/funcoes/cadastro.spec.js:190:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"../../../app/toTest.html\")",
+      "time" : {
+        "start" : 1621262725595,
+        "stop" : 1621262725663,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/funcoes/cadastro.spec.js:190:23)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1621262738433,
+        "stop" : 1621262738508,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "reload",
+        "time" : {
+          "start" : 1621262738454,
+          "stop" : 1621262738507,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "mockAlert (\"alerta\")",
+      "time" : {
+        "start" : 1621262738509,
+        "stop" : 1621262738511,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1621262738509,
+          "stop" : 1621262738510,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "stub-1 [ function: alert ] as alerta",
+        "time" : {
+          "start" : 1621262738511,
+          "stop" : 1621262738511,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"#elementosForm\\:nome\")",
+      "time" : {
+        "start" : 1621262738511,
+        "stop" : 1621262738514,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"544&**$%#56\")",
+      "time" : {
+        "start" : 1621262738514,
+        "stop" : 1621262738799,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#elementosForm\\:sobrenome\")",
+      "time" : {
+        "start" : 1621262738799,
+        "stop" : 1621262738809,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"45)6(#4@%645\")",
+      "time" : {
+        "start" : 1621262738809,
+        "stop" : 1621262739146,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#elementosForm\\:sexo [value=M]\")",
+      "time" : {
+        "start" : 1621262739146,
+        "stop" : 1621262739159,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1621262739159,
+        "stop" : 1621262739259,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#elementosForm\\:cadastrar\")",
+      "time" : {
+        "start" : 1621262739260,
+        "stop" : 1621262739269,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1621262739269,
+        "stop" : 1621262739373,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@alerta\")",
+      "time" : {
+        "start" : 1621262739373,
+        "stop" : 1621262743691,
+        "duration" : 4318
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called assert",
+      "time" : {
+        "start" : 1621262743691,
+        "stop" : 1621262743691,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "491ebd34f2d4c138",
+      "name" : "funcoes/cadastro.spec.js:2021-05-17T14:45:43.390Z",
+      "source" : "491ebd34f2d4c138.png",
+      "type" : "image/png",
+      "size" : 247177
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CADASTRO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "315da5499d463062.json",
+  "parameterValues" : [ ]
+}

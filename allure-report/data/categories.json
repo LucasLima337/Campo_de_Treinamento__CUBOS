@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+      "children" : [ {
+        "name" : "não deve aceitar caracteres inválidos no campo de entrada",
+        "uid" : "863e87b78a30a606",
+        "parentUid" : "cb9b3aaa0c6a0f8785ffa89c2be40d68",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621262715574,
+          "stop" : 1621262720121,
+          "duration" : 4547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb9b3aaa0c6a0f8785ffa89c2be40d68"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+      "children" : [ {
+        "name" : "não deve aceitar o campo de entrada vazio",
+        "uid" : "d0fc3a20ddfa3a59",
+        "parentUid" : "e223be4366d8eaa6e71c7137dcd45b08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621262720125,
+          "stop" : 1621262724599,
+          "duration" : 4474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e223be4366d8eaa6e71c7137dcd45b08"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"Nome e/ou sobrenome inválidos!\", but it was never called",
+      "children" : [ {
+        "name" : "não deve ser capaz de cadastrar um usuário com os campos \"Nome\" e \"Sobrenome\" inválidos",
+        "uid" : "315da5499d463062",
+        "parentUid" : "e67fabba64c3e9d095aad716df3ff1e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621262738432,
+          "stop" : 1621262743692,
+          "duration" : 5260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e67fabba64c3e9d095aad716df3ff1e9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

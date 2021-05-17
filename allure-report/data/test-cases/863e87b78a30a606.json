@@ -1,0 +1,309 @@
+{
+  "uid" : "863e87b78a30a606",
+  "name" : "não deve aceitar caracteres inválidos no campo de entrada",
+  "fullName" : "não deve aceitar caracteres inválidos no campo de entrada",
+  "historyId" : "2df66c695020e4ae98f9de078d6c7d58",
+  "time" : {
+    "start" : 1621262715574,
+    "stop" : 1621262720121,
+    "duration" : 4547
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/eventos/evento_prompt.spec.js:144:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"../../../app/toTest.html\")",
+      "time" : {
+        "start" : 1621262715078,
+        "stop" : 1621262715150,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/eventos/evento_prompt.spec.js:144:23)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1621262715575,
+        "stop" : 1621262715680,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "reload",
+        "time" : {
+          "start" : 1621262715589,
+          "stop" : 1621262715679,
+          "duration" : 90
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "mockAlert (\"alerta\")",
+      "time" : {
+        "start" : 1621262715683,
+        "stop" : 1621262715693,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1621262715686,
+          "stop" : 1621262715690,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "stub-1 [ function: alert ] as alerta",
+        "time" : {
+          "start" : 1621262715693,
+          "stop" : 1621262715693,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "mockPrompt (\"string\")",
+      "time" : {
+        "start" : 1621262715693,
+        "stop" : 1621262715698,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1621262715694,
+          "stop" : 1621262715696,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "stub-2 [ function: prompt ] ",
+        "time" : {
+          "start" : 1621262715698,
+          "stop" : 1621262715698,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"#prompt\")",
+      "time" : {
+        "start" : 1621262715698,
+        "stop" : 1621262715707,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1621262715707,
+        "stop" : 1621262715795,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "stub-2 [ function: undefined ] ",
+      "time" : {
+        "start" : 1621262715795,
+        "stop" : 1621262715795,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Era string? confirm",
+      "time" : {
+        "start" : 1621262715795,
+        "stop" : 1621262715795,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "stub-1 [ function: undefined ] as alerta",
+      "time" : {
+        "start" : 1621262715795,
+        "stop" : 1621262715795,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@alerta\")",
+      "time" : {
+        "start" : 1621262715795,
+        "stop" : 1621262720120,
+        "duration" : 4325
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected alerta to have been called with arguments \"O dado inserido deve ser um número\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26) assert",
+      "time" : {
+        "start" : 1621262720120,
+        "stop" : 1621262720120,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "61cb3ce2c1d63fae",
+      "name" : "eventos/evento_prompt.spec.js:2021-05-17T14:45:19.821Z",
+      "source" : "61cb3ce2c1d63fae.png",
+      "type" : "image/png",
+      "size" : 199555
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EVENTO PROMPT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "863e87b78a30a606.json",
+  "parameterValues" : [ ]
+}

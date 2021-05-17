@@ -1,0 +1,401 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "BOTÃO CLIQUE ME",
+    "children" : [ {
+      "name" : "deve possuir o valor inicial \"Clique Me!\"",
+      "uid" : "ce80cede8e76097",
+      "parentUid" : "ae552632dfa37f2462966d2b4632f351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262700499,
+        "stop" : 1621262700576,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve alterar o valor do botão para \"Obrigado!\"",
+      "uid" : "9fbceeaf1bc54829",
+      "parentUid" : "ae552632dfa37f2462966d2b4632f351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262700580,
+        "stop" : 1621262700746,
+        "duration" : 166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae552632dfa37f2462966d2b4632f351"
+  }, {
+    "name" : "BOTÃO RESPOSTA DEMORADA",
+    "children" : [ {
+      "name" : "deve exibir um campo de entrada de texto",
+      "uid" : "41b9d7ae41f8542b",
+      "parentUid" : "c81156ed2f55726ca7bd09808c55b9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262701843,
+        "stop" : 1621262705026,
+        "duration" : 3183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de escrever algo na nova entrada de texto",
+      "uid" : "2dca2cf12f98dba4",
+      "parentUid" : "c81156ed2f55726ca7bd09808c55b9a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262705038,
+        "stop" : 1621262708652,
+        "duration" : 3614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c81156ed2f55726ca7bd09808c55b9a5"
+  }, {
+    "name" : "BOTÕES CLIQUE AQUI",
+    "children" : [ {
+      "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Francisco ]",
+      "uid" : "989fd70d8bc0150c",
+      "parentUid" : "d9bf0041b3e98f6479a2ca804538677f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262709772,
+        "stop" : 1621262709966,
+        "duration" : 194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Maria ]",
+      "uid" : "1c7c181584d7f8c7",
+      "parentUid" : "d9bf0041b3e98f6479a2ca804538677f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262709972,
+        "stop" : 1621262710193,
+        "duration" : 221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Usuario A ]",
+      "uid" : "f4f9a53ee54ea650",
+      "parentUid" : "d9bf0041b3e98f6479a2ca804538677f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262710197,
+        "stop" : 1621262710381,
+        "duration" : 184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Doutorado ]",
+      "uid" : "8ab499a2bb8015c4",
+      "parentUid" : "d9bf0041b3e98f6479a2ca804538677f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262710385,
+        "stop" : 1621262710642,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Usuario B ]",
+      "uid" : "f443fb114a73c98c",
+      "parentUid" : "d9bf0041b3e98f6479a2ca804538677f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262710653,
+        "stop" : 1621262710840,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d9bf0041b3e98f6479a2ca804538677f"
+  }, {
+    "name" : "EVENTO ALERT",
+    "children" : [ {
+      "name" : "deve exibir um alerta com uma mensagem específica",
+      "uid" : "ef6b4a247fa68975",
+      "parentUid" : "1c3ca4fce6b4b2c06882e4336d58d6a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262711927,
+        "stop" : 1621262712071,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c3ca4fce6b4b2c06882e4336d58d6a9"
+  }, {
+    "name" : "EVENTO CONFIRM",
+    "children" : [ {
+      "name" : "deve exibir um campo de confirmação com uma mensagem específica",
+      "uid" : "ace8aa0b2b96d63f",
+      "parentUid" : "6e1ca927408987bd71be0a598b0545aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262713452,
+        "stop" : 1621262713668,
+        "duration" : 216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir a mensagem \"Confirmado\" ao clicar em ok",
+      "uid" : "cc6fff59cfbacf72",
+      "parentUid" : "6e1ca927408987bd71be0a598b0545aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262713674,
+        "stop" : 1621262713876,
+        "duration" : 202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir a mensagem \"Negado\" ao clicar em cancelar",
+      "uid" : "c1c7cca593db7a60",
+      "parentUid" : "6e1ca927408987bd71be0a598b0545aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262713881,
+        "stop" : 1621262714099,
+        "duration" : 218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e1ca927408987bd71be0a598b0545aa"
+  }, {
+    "name" : "EVENTO PROMPT",
+    "children" : [ {
+      "name" : "deve inserir um número e obter um retorno positivo",
+      "uid" : "41d824f2a7d6a272",
+      "parentUid" : "492c9871ea35945f962980dd6c3f2048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262715151,
+        "stop" : 1621262715398,
+        "duration" : 247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve inserir um número e obter um retorno negativo",
+      "uid" : "c43d7990c4c520a1",
+      "parentUid" : "492c9871ea35945f962980dd6c3f2048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262715403,
+        "stop" : 1621262715569,
+        "duration" : 166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "não deve aceitar caracteres inválidos no campo de entrada",
+      "uid" : "863e87b78a30a606",
+      "parentUid" : "492c9871ea35945f962980dd6c3f2048",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621262715574,
+        "stop" : 1621262720121,
+        "duration" : 4547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "não deve aceitar o campo de entrada vazio",
+      "uid" : "d0fc3a20ddfa3a59",
+      "parentUid" : "492c9871ea35945f962980dd6c3f2048",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621262720125,
+        "stop" : 1621262724599,
+        "duration" : 4474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "492c9871ea35945f962980dd6c3f2048"
+  }, {
+    "name" : "CADASTRO",
+    "children" : [ {
+      "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Nome\" vazio",
+      "uid" : "d057bbe80b0c3624",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262725665,
+        "stop" : 1621262725895,
+        "duration" : 230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Sobrenome\" vazio",
+      "uid" : "81bd78f61f58fcf0",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262725904,
+        "stop" : 1621262726317,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Sexo\" vazio",
+      "uid" : "f69e7da3679db988",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262726324,
+        "stop" : 1621262727015,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de cadastrar um usuário com credenciais válidas",
+      "uid" : "dbe836648c6a1658",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262727024,
+        "stop" : 1621262729126,
+        "duration" : 2102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ carne ]",
+      "uid" : "8bd1dc025ca77b4a",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262729134,
+        "stop" : 1621262731213,
+        "duration" : 2079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ frango ]",
+      "uid" : "31659fdaf401ef22",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262731223,
+        "stop" : 1621262733279,
+        "duration" : 2056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ pizza ]",
+      "uid" : "2a9521b0a9bc83e5",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262733290,
+        "stop" : 1621262735406,
+        "duration" : 2116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ vegetariano ]",
+      "uid" : "9c5a9047c15a3bb0",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262735413,
+        "stop" : 1621262737432,
+        "duration" : 2019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deve exibir um popup quando o usuário se cadastra com as opções \"Carne\" e \"Vegetariano\"",
+      "uid" : "192868f090a2d100",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262737441,
+        "stop" : 1621262738423,
+        "duration" : 982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "não deve ser capaz de cadastrar um usuário com os campos \"Nome\" e \"Sobrenome\" inválidos",
+      "uid" : "315da5499d463062",
+      "parentUid" : "639c78d4a53318828a6af93e0d99648f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621262738432,
+        "stop" : 1621262743692,
+        "duration" : 5260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "639c78d4a53318828a6af93e0d99648f"
+  }, {
+    "name" : "LINK VOLTAR",
+    "children" : [ {
+      "name" : "deve exibir um elemento DOM com o texto \"Voltou!\"",
+      "uid" : "646b3f648d51dcf2",
+      "parentUid" : "1d5e58a28c8ef9b9d7f8fbfbea6e0495",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621262744768,
+        "stop" : 1621262744916,
+        "duration" : 148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d5e58a28c8ef9b9d7f8fbfbea6e0495"
+  } ]
+}

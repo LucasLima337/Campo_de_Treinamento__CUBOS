@@ -1,0 +1,309 @@
+{
+  "uid" : "d0fc3a20ddfa3a59",
+  "name" : "não deve aceitar o campo de entrada vazio",
+  "fullName" : "não deve aceitar o campo de entrada vazio",
+  "historyId" : "fc1ca1cb611d7f31e0272597c914dc79",
+  "time" : {
+    "start" : 1621262720125,
+    "stop" : 1621262724599,
+    "duration" : 4474
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/eventos/evento_prompt.spec.js:150:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"../../../app/toTest.html\")",
+      "time" : {
+        "start" : 1621262715078,
+        "stop" : 1621262715150,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26)\n    at Context.eval (http://localhost:36843/__cypress/tests?p=cypress/integration/eventos/evento_prompt.spec.js:150:23)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1621262720126,
+        "stop" : 1621262720195,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "reload",
+        "time" : {
+          "start" : 1621262720131,
+          "stop" : 1621262720195,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "mockAlert (\"alerta\")",
+      "time" : {
+        "start" : 1621262720196,
+        "stop" : 1621262720199,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1621262720197,
+          "stop" : 1621262720198,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "stub-1 [ function: alert ] as alerta",
+        "time" : {
+          "start" : 1621262720199,
+          "stop" : 1621262720199,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "mockPrompt (\"\")",
+      "time" : {
+        "start" : 1621262720199,
+        "stop" : 1621262720202,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1621262720199,
+          "stop" : 1621262720200,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "stub-2 [ function: prompt ] ",
+        "time" : {
+          "start" : 1621262720202,
+          "stop" : 1621262720202,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"#prompt\")",
+      "time" : {
+        "start" : 1621262720202,
+        "stop" : 1621262720205,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1621262720205,
+        "stop" : 1621262720290,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "stub-2 [ function: undefined ] ",
+      "time" : {
+        "start" : 1621262720290,
+        "stop" : 1621262720290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Era ? confirm",
+      "time" : {
+        "start" : 1621262720290,
+        "stop" : 1621262720290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "stub-1 [ function: undefined ] as alerta",
+      "time" : {
+        "start" : 1621262720290,
+        "stop" : 1621262720290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@alerta\")",
+      "time" : {
+        "start" : 1621262720290,
+        "stop" : 1621262724598,
+        "duration" : 4308
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected alerta to have been called with arguments \"O campo de entrada não pode estar vazio\"\n\n    The following calls were made:\n\n    alerta(\":D\") at alerta (http://localhost:36843/__cypress/runner/cypress_runner.js:123548:26) assert",
+      "time" : {
+        "start" : 1621262724598,
+        "stop" : 1621262724598,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fca19b7bd0838f3d",
+      "name" : "eventos/evento_prompt.spec.js:2021-05-17T14:45:24.293Z",
+      "source" : "fca19b7bd0838f3d.png",
+      "type" : "image/png",
+      "size" : 251757
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EVENTO PROMPT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d0fc3a20ddfa3a59.json",
+  "parameterValues" : [ ]
+}

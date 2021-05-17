@@ -1,0 +1,281 @@
+[ {
+  "uid" : "f4f9a53ee54ea650",
+  "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Usuario A ]",
+  "time" : {
+    "start" : 1621262710197,
+    "stop" : 1621262710381,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c7c181584d7f8c7",
+  "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Maria ]",
+  "time" : {
+    "start" : 1621262709972,
+    "stop" : 1621262710193,
+    "duration" : 221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d057bbe80b0c3624",
+  "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Nome\" vazio",
+  "time" : {
+    "start" : 1621262725665,
+    "stop" : 1621262725895,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1c7cca593db7a60",
+  "name" : "deve exibir a mensagem \"Negado\" ao clicar em cancelar",
+  "time" : {
+    "start" : 1621262713881,
+    "stop" : 1621262714099,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c43d7990c4c520a1",
+  "name" : "deve inserir um número e obter um retorno negativo",
+  "time" : {
+    "start" : 1621262715403,
+    "stop" : 1621262715569,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dca2cf12f98dba4",
+  "name" : "deve ser capaz de escrever algo na nova entrada de texto",
+  "time" : {
+    "start" : 1621262705038,
+    "stop" : 1621262708652,
+    "duration" : 3614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0fc3a20ddfa3a59",
+  "name" : "não deve aceitar o campo de entrada vazio",
+  "time" : {
+    "start" : 1621262720125,
+    "stop" : 1621262724599,
+    "duration" : 4474
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f443fb114a73c98c",
+  "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Usuario B ]",
+  "time" : {
+    "start" : 1621262710653,
+    "stop" : 1621262710840,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41d824f2a7d6a272",
+  "name" : "deve inserir um número e obter um retorno positivo",
+  "time" : {
+    "start" : 1621262715151,
+    "stop" : 1621262715398,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31659fdaf401ef22",
+  "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ frango ]",
+  "time" : {
+    "start" : 1621262731223,
+    "stop" : 1621262733279,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c5a9047c15a3bb0",
+  "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ vegetariano ]",
+  "time" : {
+    "start" : 1621262735413,
+    "stop" : 1621262737432,
+    "duration" : 2019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a9521b0a9bc83e5",
+  "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ pizza ]",
+  "time" : {
+    "start" : 1621262733290,
+    "stop" : 1621262735406,
+    "duration" : 2116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "863e87b78a30a606",
+  "name" : "não deve aceitar caracteres inválidos no campo de entrada",
+  "time" : {
+    "start" : 1621262715574,
+    "stop" : 1621262720121,
+    "duration" : 4547
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "989fd70d8bc0150c",
+  "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Francisco ]",
+  "time" : {
+    "start" : 1621262709772,
+    "stop" : 1621262709966,
+    "duration" : 194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "315da5499d463062",
+  "name" : "não deve ser capaz de cadastrar um usuário com os campos \"Nome\" e \"Sobrenome\" inválidos",
+  "time" : {
+    "start" : 1621262738432,
+    "stop" : 1621262743692,
+    "duration" : 5260
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f69e7da3679db988",
+  "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Sexo\" vazio",
+  "time" : {
+    "start" : 1621262726324,
+    "stop" : 1621262727015,
+    "duration" : 691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd1dc025ca77b4a",
+  "name" : "deve ser capaz de cadastrar um usuário com o seguinte item: [ carne ]",
+  "time" : {
+    "start" : 1621262729134,
+    "stop" : 1621262731213,
+    "duration" : 2079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce80cede8e76097",
+  "name" : "deve possuir o valor inicial \"Clique Me!\"",
+  "time" : {
+    "start" : 1621262700499,
+    "stop" : 1621262700576,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fbceeaf1bc54829",
+  "name" : "deve alterar o valor do botão para \"Obrigado!\"",
+  "time" : {
+    "start" : 1621262700580,
+    "stop" : 1621262700746,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81bd78f61f58fcf0",
+  "name" : "não deve ser capaz de cadastrar um usuário com o campo \"Sobrenome\" vazio",
+  "time" : {
+    "start" : 1621262725904,
+    "stop" : 1621262726317,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef6b4a247fa68975",
+  "name" : "deve exibir um alerta com uma mensagem específica",
+  "time" : {
+    "start" : 1621262711927,
+    "stop" : 1621262712071,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "646b3f648d51dcf2",
+  "name" : "deve exibir um elemento DOM com o texto \"Voltou!\"",
+  "time" : {
+    "start" : 1621262744768,
+    "stop" : 1621262744916,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc6fff59cfbacf72",
+  "name" : "deve exibir a mensagem \"Confirmado\" ao clicar em ok",
+  "time" : {
+    "start" : 1621262713674,
+    "stop" : 1621262713876,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "192868f090a2d100",
+  "name" : "deve exibir um popup quando o usuário se cadastra com as opções \"Carne\" e \"Vegetariano\"",
+  "time" : {
+    "start" : 1621262737441,
+    "stop" : 1621262738423,
+    "duration" : 982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41b9d7ae41f8542b",
+  "name" : "deve exibir um campo de entrada de texto",
+  "time" : {
+    "start" : 1621262701843,
+    "stop" : 1621262705026,
+    "duration" : 3183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbe836648c6a1658",
+  "name" : "deve ser capaz de cadastrar um usuário com credenciais válidas",
+  "time" : {
+    "start" : 1621262727024,
+    "stop" : 1621262729126,
+    "duration" : 2102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ab499a2bb8015c4",
+  "name" : "deve exibir o nome correspondente a linha da tabela ao clicar no botão | [ Doutorado ]",
+  "time" : {
+    "start" : 1621262710385,
+    "stop" : 1621262710642,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ace8aa0b2b96d63f",
+  "name" : "deve exibir um campo de confirmação com uma mensagem específica",
+  "time" : {
+    "start" : 1621262713452,
+    "stop" : 1621262713668,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
